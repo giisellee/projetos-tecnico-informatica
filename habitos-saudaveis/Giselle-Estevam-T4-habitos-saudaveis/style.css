@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: fixed;
+    background-color: #fff;
+    height: 4rem;
+    width: 100%;
+    box-shadow: 0px 2px 4px #b4d3b2;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#000;
+    margin: 0 1rem;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: #00000079;
+}
+
+section {
+    min-height: 100vh;
+    padding-top: 5rem;
+}
+
+#introducao {
+    text-align: center;
+    background-color: #8bb588c2;
+    padding-bottom: 1rem;
+}
+
+#introducao h1{
+    font-size: 50px;
+    padding-bottom: 1rem;
+}
+
+#introducao h2{
+    font-size: 30px;
+    padding-bottom: 1rem;
+}
+
+#introducao h3{
+    font-size: 25px;
+    padding-bottom: 1rem;
+}
+
+#introducao p{
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+.container {
+    display: flex;
+}
+
+.text-metas, .text-planos, .text-pausas{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.imagem img{
+    border-radius: 10px;
+    box-shadow: #fff;
+}
+
+#habitos_saudaveis {
+    background-color: #a3cda0;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#habitos_saudaveis h1{
+    font-size: 50px;
+    padding-bottom: 1rem;
+}
+
+#habitos_saudaveis h2{
+    font-size: 30px;
+    padding-bottom: 1rem;
+}
+
+#habitos_saudaveis h3{
+    font-size: 25px;
+    padding-bottom: 1rem;
+}
+
+#habitos_saudaveis p{
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+.text-esquerda {
+    text-align: left;
+}
+
+
+#calcular_imc {
+    background-color: #b4d3b2;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#calcular_imc h1{
+    font-size: 50px;
+    padding-bottom: 1rem;
+}
+
+#calcular_imc h2{
+    font-size: 30px;
+    padding-bottom: 1rem;
+}
+
+#calcular_imc h3{
+    font-size: 25px;
+    padding-bottom: 1rem;
+}
+
+#calcular_imc p{
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+body {
+    background-color: #a8ca7e;
+}
+

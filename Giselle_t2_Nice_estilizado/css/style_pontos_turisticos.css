@@ -1,0 +1,47 @@
+.format_do_titulo {
+    Font-family: Lucida Sans, Helvetica, Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+.format_do_subtitulo {
+    Font-family: Lucida Sans, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu-h {
+    list-style: none;
+    padding: 0;
+    background-color: #8B4513;
+}
+.itens-menu {
+    display: inline;
+}
+
+.links {
+    color: #E0FFFF;
+    text-decoration: none;
+    padding: 50px;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.back {
+    background-color:#B0E0E6;
+}
+
+.container {
+    display: flex;
+}
+
+img {
+    width: 400px;
+    margin-right: 10px;
+
+}
+p {
+    font-family: Lucida Sans, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
